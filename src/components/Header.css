@@ -1,0 +1,42 @@
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8vw;
+    height: 12vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: rgb(37, 37, 28) 0px 3px 16px;
+    background-color: rgb(66, 243, 157);
+    /* background-color: transparent; */
+    z-index: 1000;
+  }
+  
+  .logo  {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: red ;
+    text-decoration: none;
+    font-family:sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+   
+
+
+  }
+
+  .btn{
+   padding: 10px 20px;
+   border-radius: 20px;
+   border: none;
+   background-color: rgb(90, 8, 244);  
+   color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
